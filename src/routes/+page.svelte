@@ -5,8 +5,8 @@
     import {onMount} from 'svelte';
   
 	// Supabase configuration
-	const SUPABASE_URL = 'https://fqzymazucldrzwqbojmo.supabase.red';
-	const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZxenltYXp1Y2xkcnp3cWJvam1vIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc4OTczNTcsImV4cCI6MjA2MzQ3MzM1N30.1eIupOysnsrn9bDpPf5wux9bfzYp1h4uR_r5sRczpHg';
+	const SUPABASE_URL = 'https://aettihqbybgkbfortlrd.supabase.co';
+	const SUPABASE_KEY ='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFldHRpaHFieWJna2Jmb3J0bHJkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDg4MTA2OTIsImV4cCI6MjA2NDM4NjY5Mn0.5gBwimlAx4fEWM0tv7J6t7ePB-5dDq5JqWf0NmrNhSs';
 	const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 	
 	// ============= STATE MANAGEMENT =============
